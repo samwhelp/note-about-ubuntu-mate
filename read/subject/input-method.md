@@ -24,7 +24,7 @@ has_children: true
 
 | 輸入法框架 | 切換指令 | 設定檔路徑 |
 | --- | --- | --- |
-| [fcitx5](#fcitx5) | `im-config -n fcitx5` | [~/.xinputrc](https://github.com/samwhelp/ubuntu-mate-adjustment/blob/main/prototype/main/im-config/fcitx5/module/fcitx5-chewing/asset/overlay/etc/skel/.xinputrc) |
+| [fcitx5](#fcitx5) | `im-config -n fcitx5` | [~/.xinputrc](https://github.com/samwhelp/ubuntu-mate-adjustment/blob/main/prototype/main/im-config/fcitx5/fcitx5-chewing/asset/overlay/etc/skel/.xinputrc) |
 | [ibus](#ibus) | `im-config -n ibus` | ~/.xinputrc |
 | [gcin](#gcin) | `im-config -n gcin` | ~/.xinputrc |
 | [hime](#hime) | `im-config -n hime` | ~/.xinputrc |
