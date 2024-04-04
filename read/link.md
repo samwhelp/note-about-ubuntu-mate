@@ -12,7 +12,7 @@ has_children: false
 | Link |
 | ---- |
 | [Ubuntu Mate](https://ubuntu-mate.org/) |
-| Ubuntu cdimage / [ubuntu-budgie](https://cdimage.ubuntu.com/ubuntu-mate/) |
+| Ubuntu cdimage / [ubuntu-mate](https://cdimage.ubuntu.com/ubuntu-mate/) |
 | GitHub / [ubuntu-mate](https://github.com/ubuntu-mate) |
 | GitHub / [mate-desktop](https://github.com/mate-desktop/) |
 | [Mate Desktop Environment](https://mate-desktop.org/) |
