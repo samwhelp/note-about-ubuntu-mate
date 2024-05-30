@@ -13,9 +13,11 @@
 ## 主題
 
 * [微調腳本](#微調腳本)
+* [按鍵綁定](#按鍵綁定)
 * [輸入法](#輸入法)
 * [佈景主題](#佈景主題)
 * [工具](#工具)
+* [如何](#如何)
 * [相關筆記](#相關筆記)
 
 
@@ -26,6 +28,17 @@
 | 微調腳本 |
 | -------- |
 | [Ubuntu Mate 24.04](https://github.com/samwhelp/ubuntu-mate-adjustment/tree/main/prototype/main) |
+
+
+
+
+
+## 按鍵綁定
+
+| 按鍵綁定 |
+| --- |
+| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-ubuntu-mate/read/config/keybind.html) |
+| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-ubuntu-mate/read/config/mousebind.html) |
 
 
 
@@ -55,6 +68,16 @@
 | [工具](https://samwhelp.github.io/note-about-ubuntu-mate/read/subject/tool.html) | [微調腳本](https://github.com/samwhelp/ubuntu-mate-adjustment/tree/main/prototype/main/tool-config) | 分類 |
 | --- | --- | --- |
 | [gnome-terminal](https://samwhelp.github.io/note-about-ubuntu-mate/read/subject/tool/terminal/gnome-terminal.html) | [微調腳本](https://github.com/samwhelp/ubuntu-mate-adjustment/tree/main/prototype/main/tool-config/part/gnome-terminal) | [Terminal](https://samwhelp.github.io/note-about-ubuntu-mate/read/subject/tool/terminal.html) |
+
+
+
+
+## 如何
+
+| [如何](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto.html) |
+| ------- |
+| [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto/config-mouse-button-modifier.html) |
+| [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto/disable-keybind-open-menu.html) |
 
 
 
