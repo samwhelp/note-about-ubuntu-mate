@@ -22,9 +22,24 @@
 
 mod_mate_config_for_mouse_button_modifier () {
 
+
+	##
+	## ## Disable Super_L Open Menu
+	##
+
+	gsettings set com.solus-project.brisk-menu hot-key ''
+
+	#gsettings set com.linuxmint.mintmenu hot-key ''
+
+
+	##
+	## ## Mouse Button Modifier
+	##
+
 	gsettings set org.mate.Marco.general mouse-button-modifier "'<Super>'"
 
 	gsettings set org.mate.Marco.general resize-with-right-button true
+
 
 	return 0
 }
@@ -42,8 +57,6 @@ mod_mate_config_for_keybind_main () {
 	##
 	## ## Fix
 	##
-
-	gsettings set com.linuxmint.mintmenu hot-key ''
 
 
 
@@ -203,7 +216,7 @@ mod_mate_config_for_keybind_custom () {
 
 	## ### Text Editor
 	dconf write /org/mate/desktop/keybindings/text-editor/name "'Text_Editor'"
-	dconf write /org/mate/desktop/keybindings/text-editor/action "'xed'"
+	dconf write /org/mate/desktop/keybindings/text-editor/action "'pluma'"
 	dconf write /org/mate/desktop/keybindings/text-editor/binding "'<Shift><Alt>e'"
 
 
@@ -383,53 +396,57 @@ mod_tool_caja_config () {
 
 
 ##
-## ## Tool / Xed / Config
+## ## Tool / Pluma / Config
 ##
 
-mod_tool_xed_config () {
+mod_tool_pluma_config () {
 
 
-	gsettings set org.x.editor.preferences.editor prefer-dark-theme true
+	gsettings set org.mate.pluma auto-indent true
 
-	gsettings set org.x.editor.preferences.editor scheme 'oblivion'
+	gsettings set org.mate.pluma insert-spaces false
 
-	gsettings set org.x.editor.preferences.editor use-default-font false
+	gsettings set org.mate.pluma tabs-size 4
 
-	gsettings set org.x.editor.preferences.editor editor-font 'Monospace 14'
+	gsettings set org.mate.pluma bracket-matching true
 
-	gsettings set org.x.editor.preferences.editor insert-spaces false
+	gsettings set org.mate.pluma highlight-current-line true
 
-	gsettings set org.x.editor.preferences.editor tabs-size 4
+	gsettings set org.mate.pluma display-line-numbers true
 
-	gsettings set org.x.editor.preferences.editor highlight-current-line true
+	gsettings set org.mate.pluma display-overview-map true
 
-	gsettings set org.x.editor.preferences.editor display-line-numbers true
+	gsettings set org.mate.pluma display-right-margin true
 
-	gsettings set org.x.editor.preferences.editor display-right-margin true
+	gsettings set org.mate.pluma background-pattern 'none'
 
-	gsettings set org.x.editor.preferences.editor right-margin-position 80
+	gsettings set org.mate.pluma side-pane-visible true
 
-	gsettings set org.x.editor.preferences.editor draw-whitespace true
+	gsettings set org.mate.pluma statusbar-visible true
 
-	gsettings set org.x.editor.preferences.editor draw-whitespace-inside true
+	gsettings set org.mate.pluma color-scheme 'oblivion'
 
-	gsettings set org.x.editor.preferences.editor draw-whitespace-leading true
+	gsettings set org.mate.pluma use-default-font false
 
-	gsettings set org.x.editor.preferences.editor draw-whitespace-newline true
+	gsettings set org.mate.pluma editor-font 'Monospace 14'
 
-	gsettings set org.x.editor.preferences.editor draw-whitespace-trailing true
+	gsettings set org.mate.pluma right-margin-position 80
 
-	gsettings set org.x.editor.preferences.editor ensure-trailing-newline true
+	gsettings set org.mate.pluma enable-space-drawer-newline true
+
+	gsettings set org.mate.pluma enable-space-drawer-space 'show-all'
+
+	gsettings set org.mate.pluma enable-space-drawer-tab 'show-trailing'
+
+	gsettings set org.mate.pluma shown-in-menu-encodings "['UTF-8', 'ISO-8859-15', 'UTF-16', 'BIG5', 'GB2312']"
+
+	gsettings set org.mate.pluma active-plugins "['filebrowser', 'spell', 'modelines', 'externaltools', 'docinfo', 'trailsave', 'time']"
 
 
 
 
-	gsettings set org.x.editor.preferences.ui side-panel-visible true
 
 
-
-
-	gsettings set org.x.editor.plugins.filebrowser terminal-command 'gnome-terminal'
 
 
 	return 0
@@ -463,7 +480,7 @@ mod_tool_config () {
 
 	mod_tool_caja_config
 
-	mod_tool_xed_config
+	mod_tool_pluma_config
 
 
 	return 0
