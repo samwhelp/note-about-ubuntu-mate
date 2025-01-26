@@ -39,7 +39,7 @@ gsettings set org.mate.Marco.general resize-with-right-button true
 
 預設按下「Win鍵」會觸發「顯示Menu」，我採用的是「brisk-menu」，
 
-為了避免無謂的干擾，我會執行下面指令來[停用這個功能](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto/disable-keybind-open-menu.html)。
+為了避免無謂的干擾，我會執行下面指令來[停用這個功能](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto/disable-keybind-open-main-menu.html)。
 
 
 ``` sh
@@ -52,7 +52,7 @@ gsettings set com.solus-project.brisk-menu hot-key ''
 | 相關議題 |
 | ------- |
 | [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-ubuntu-mate/read/config/mousebind.html#視窗內容區塊) |
-| [停用按鍵綁定「Super_L」開啟「Overlay」](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto/disable-keybind-open-menu.html) |
+| [停用按鍵綁定「Super_L」開啟「Overlay」](https://samwhelp.github.io/note-about-ubuntu-mate/read/howto/disable-keybind-open-main-menu.html) |
 
 
 ## 相關應用
