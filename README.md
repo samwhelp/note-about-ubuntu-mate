@@ -27,8 +27,9 @@
 
 | 微調腳本 |
 | -------- |
-| [Ubuntu Mate 24.04](https://github.com/samwhelp/ubuntu-mate-adjustment/tree/main/prototype/main) |
-
+| [Ubuntu Mate Config](https://github.com/samwhelp/ubuntu-mate-adjustment/tree/main/prototype/main) |
+| [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
+| [簡易微調](https://github.com/samwhelp/note-about-ubuntu-mate/tree/gh-pages/_demo/scripts/mate-adjustment) |
 
 
 
