@@ -30,6 +30,9 @@
 
 ### Build ISO
 
+> [Ubuntu / ISO Builder / 探索筆記](https://samwhelp.github.io/note-about-ubuntu-iso-builder/)
+
+
 | Ubuntu / ISO Builder / Mate |
 | --------------------------- |
 | [ubuntu-iso-builder-respin-mate](https://github.com/samwhelp/ubuntu-iso-builder-respin-mate) |
