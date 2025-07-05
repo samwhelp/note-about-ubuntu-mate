@@ -6,6 +6,7 @@
 | ---- | ------ |
 | [Ubuntu Mate Adjustment](https://samwhelp.github.io/ubuntu-mate-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-mate-adjustment) |
 | [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
+| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 
 
 
@@ -106,9 +107,6 @@
 | [Debian Mate 探索筆記](https://samwhelp.github.io/note-about-debian-mate/) | [GitHub](https://github.com/samwhelp/note-about-debian-mate) |
 | [Linux Mint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
 | [Fedora Mate 探索筆記](https://samwhelp.github.io/note-about-fedora-mate/) | [GitHub](https://github.com/samwhelp/note-about-fedora-mate) |
-| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
-| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
-| [Fedora 探索筆記](https://samwhelp.github.io/note-about-fedora/) | [GitHub](https://github.com/samwhelp/note-about-fedora) |
 
 
 
