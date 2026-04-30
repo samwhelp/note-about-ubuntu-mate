@@ -50,6 +50,12 @@
 | [簡易微調](https://github.com/samwhelp/ubuntu-mate-adjustment/tree/main/demo/scripts/main/mate-adjustment) |
 
 
+| Style Management |
+| ---------------- |
+| [make-mate-style](https://github.com/samwhelp/make-mate-style) |
+| [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
+
+
 
 
 ## 按鍵綁定
